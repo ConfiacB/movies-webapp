@@ -8,6 +8,7 @@ To log in : `me@here.com` and `password`
 
 - Front-end : Javascript (React), Bootstrap.
 - Back-end : Go, GraphQL, PostgreSQL.
+- API : The Movie Database (themoviedb.org)
 
 ## Command line
 
