@@ -1,0 +1,64 @@
+:root {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  --color-text: #111;
+  --color-number: #999;
+  --color-bg: rgba(0, 0, 0, 0.034);
+  --color-link: #3f4eaf;
+  --color-link-hover: rgba(17, 17, 17, 0.272);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-family: tenon, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-body {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.main-nav {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  outline: none;
+}
+li a {
+  font-weight: bold;
+}
+
+li:hover {
+  background-color: var(--color-link-hover);
+  outline: none;
+}
+
+li:hover a {
+  color: rgb(1, 1, 1);
+  font-weight: bold;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #443ffc;
+  outline-offset: 3px;
+}
+
+a:focus-visible {
+  background: none;
+}
